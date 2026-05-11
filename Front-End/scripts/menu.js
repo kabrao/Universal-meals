@@ -7,7 +7,7 @@ document.getElementById('btnLogout').addEventListener('click', () => {
     window.location.href = 'seConnecter.html';
 });
 
-const API = 'http://localhost:3001/api';
+const API = 'https://universal-meals-production.up.railway.app/api';
 
 
 let menuProduit = '';
