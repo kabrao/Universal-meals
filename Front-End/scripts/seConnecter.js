@@ -1,4 +1,4 @@
-const API = 'https://universal-meals-production.up.railway.app/';
+const API = 'https://universal-meals-production.up.railway.app/api';
 
 let userExistant = JSON.parse(localStorage.getItem('utilisateur'));
 if (userExistant) {
