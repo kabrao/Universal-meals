@@ -1,4 +1,4 @@
-const API = 'http://localhost:3001/api';
+const API = 'https://universal-meals-production.up.railway.app/api';
 
 let utilisateur = JSON.parse(localStorage.getItem('utilisateur'));
 let token = localStorage.getItem('token');
